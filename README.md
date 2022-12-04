@@ -1,7 +1,6 @@
-# PostMakinasi
-Oluşturulma tarihi:‎30 ‎Mart ‎2018
-# Post Makinesi Nedir?
-Bilgisayar bilimlerinde özellikle özdevinirliler kuramında (automata theory) geçen bir makine modelidir. Yapı olarak Turing makinesine (Turing machine) çok benzer hatta ufak farklılıklar dışında neredeyse aynı olduğu söylenebilir. Turing makinesini geliştiren Alan Turing ile bağımsız olarak geliştirilmiştir. Bu anlamda Post makinesi bazı kaynaklarda Post-Turing makinesi (Post Turing Machine) olarak da geçmektedir.
-Turing makinesinde kullanılan bant mantığına benzer bir şekilde, Post makinesinde de kutular bulunmaktadır. İki yöne doğru sonsuz sayıda kutunun bulunduğu bir üretim bandı gibi düşünülebilir. Yani kutulara erişim ardışıktır (sequential) ve kutular ileri veya geri olmak üzere iki yönde hareket edebilir. Post makinesi burada sanki bir çalışanın üretim bandındaki kutular üzerinden çalıştığı kabulü ile yola çıkar.
-Post makinesinde, başlangıç durumunda sonsuz kutu bulunmakta ancak bunların sonlu bir kısmı işaretli, geri kalan sonsuz kısmı ise işaretsiz kabul edilmektedir. Yani başlangıç durumunda makinemizin hafızasında bir bilgi olmasını istiyorsak, bu bilgiyi kutulara işaretliyoruz. Geri kalan kutular ise işaretsiz oluyorlar.
-
+# PostMachine
+Created On: ‎30 ‎March ‎2018
+# What is Post Machine?
+It is a machine model in computer science, especially in automata theory. It can be said that it is very similar to the Turing machine in structure, even almost the same, except for minor differences. It was developed independently by Alan Turing, who developed the Turing machine. In this sense, the Post machine is also referred to as the Post-Turing machine in some sources.
+Similar to the tape logic used in the Turing machine, the Post machine also has boxes. It can be thought of as a production line with an infinite number of boxes in two directions. That is, access to the boxes is sequential, and the boxes can move in either direction, forward or backward. The post machine starts with the assumption that an employee works from boxes on the production line.
+In the post machine, there are infinite boxes in the initial state, but a finite part is considered signed and the remaining infinite part is considered unsigned. In other words, if we want to have information in the memory of our machine in the initial state, we mark this information in the boxes. The remaining boxes are unchecked.
